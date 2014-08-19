@@ -1,3 +1,4 @@
+require('../../styles/simple_steps.css')
 React = require 'react/addons'
 CR = require '../cr.coffee'
 d = CR.React.DOM
