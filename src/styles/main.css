@@ -130,3 +130,10 @@ html, body {
     .fa {
 font-size: 60px; padding-left: 12px; padding-top: 3px; color: black;
     }
+.progress-bar {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
