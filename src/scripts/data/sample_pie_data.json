@@ -1,0 +1,16 @@
+[
+  {
+    "type": "pie",
+    "name": "AM",
+    "data": [
+      [
+        "OCCUPIED",
+        45
+      ],
+      [
+        "UNOCCUPIED",
+        55
+      ]
+    ]
+  }
+]

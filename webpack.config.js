@@ -49,6 +49,9 @@ module.exports = {
       test: /\.coffee$/,
       loader: 'coffee-loader'
     }, {
+      test: /\.json$/,
+      loader: 'json-loader'
+    }, {
       test: /\.cjsx$/,
       loaders: ['coffee', 'cjsx']
     }, {
