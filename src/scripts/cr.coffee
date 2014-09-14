@@ -3,7 +3,8 @@ _ = require('underscore')
 Backbone = require('backbone')
 Backbone.$ = $
 Flux = {}
-Flux.Dispatcher = require 'flux/examples/flux-chat/js/dispatcher/Dispatcher'
+#Flux.Dispatcher = require 'flux/examples/flux-chat/js/dispatcher/Dispatcher'
+Flux.Dispatcher = require('flux').Dispatcher
 if jest?
   React = require 'react/addons'
   TestUtils = React.addons.TestUtils

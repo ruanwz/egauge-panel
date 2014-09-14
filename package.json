@@ -8,12 +8,12 @@
   "mainOutput": "main",
   "dependencies": {
     "backbone": ">=1.1.2",
-    "flux": "git://github.com/facebook/flux",
+    "flux": "2.0.0",
     "jquery": "2.1.1",
     "react": ">=0.11.0",
     "react-bootstrap": ">=0.11.1",
-    "react-router":  "git://github.com/rackt/react-router",
-    "react-router-bootstrap": "^0.4.5",
+    "react-router":  "0.5.1",
+    "react-router-bootstrap": ">=0.4.5",
     "underscore": "1.6.0"
   },
   "devDependencies": {
@@ -25,9 +25,9 @@
     "coffee-loader": "~0.7.2",
     "cjsx-loader": ">=0.2.0",
     "grunt-webpack": "~1.0.0",
-    "style-loader": "~0.6.3",
+    "style-loader": "~0.8.0",
     "url-loader": "~0.5.4",
-    "css-loader": "~0.6.6",
+    "css-loader": "~0.8.0",
     "json-loader": "~0.5.1",
     "karma-script-launcher": "~0.1.0",
     "karma-chrome-launcher": "~0.1.2",

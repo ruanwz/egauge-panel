@@ -7,10 +7,11 @@ var React = require('react/addons');
 var ReactTransitionGroup = React.addons.TransitionGroup;
 // Export React so the devtools can find it
 (window !== window.top ? window.top : window).React = React;
-var Routes = require('react-router/Routes');
-var Route = require('react-router/Route');
-var DefaultRoute = require('react-router/DefaultRoute');
-var Link = require('react-router/Link');
+var RR = require('react-router');
+var Routes = RR.Routes;
+var Route = RR.Route;
+var DefaultRoute = RR.DefaultRrout;
+var Link = RR.Link;
 var SimpleSteps = require('./SimpleSteps.cjsx');
 var AppNavBar = require('./AppNavBar.cjsx');
 var Home = require('./Home.cjsx');
@@ -21,8 +22,8 @@ var Devices = require('./Devices.cjsx');
 var Products = require('./Products.cjsx');
 var About = require('./About.cjsx');
 // CSS
-require("../../styles/bootstrap/css/bootstrap.css");
-require("../../styles/font-awesome/css/font-awesome.css");
+//require("../../styles/bootstrap/css/bootstrap.css");
+//require("../../styles/font-awesome/css/font-awesome.css");
 require('../../styles/reset.css');
 require('../../styles/main.css');
 
@@ -100,7 +101,6 @@ var routes = (
       <Route name="insta" path="insta" handler={InstamotorApp}>
       <Route name="img" path="img" handler={Img}/>
       </Route>
-      <DefaultRoute handler={Home}/>
     </Route>
   </Routes>
 );
