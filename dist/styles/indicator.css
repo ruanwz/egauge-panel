@@ -1,0 +1,28 @@
+.digital dl {
+    float: left;
+    border-right: 1px solid #cecdcd;
+    width: 174px;
+    padding: 10px 10px 5px 10px;
+}
+.digital dl dt {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+.digital .unit {
+    font-weight: bold;
+    font-size: 11px;
+}
+.digital span {
+    margin-right: 5px;
+}
+.digital dd {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    line-height: 32px;
+    height: 32px;
+    padding: 0;
+}
