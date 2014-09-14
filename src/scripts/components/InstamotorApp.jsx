@@ -21,8 +21,8 @@ var Devices = require('./Devices.cjsx');
 var Products = require('./Products.cjsx');
 var About = require('./About.cjsx');
 // CSS
-//require('../../../bower_components/font-awesome/css/font-awesome.min.css');
-//require('../../../bower_components/bootstrap/dist/css/bootstrap.min.css');
+require("../../styles/bootstrap/css/bootstrap.css");
+require("../../styles/font-awesome/css/font-awesome.css");
 require('../../styles/reset.css');
 require('../../styles/main.css');
 

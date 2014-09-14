@@ -57,7 +57,7 @@ OLineChart = CR.React.createClass
 
 
   componentDidMount: ->
-    @draw_chart("#linechart_container", "AM")
+    @draw_chart("#linechart_container", "OCCUPANCY LEVELS")
   render: ->
     style = 
       "min-width": "310px"
